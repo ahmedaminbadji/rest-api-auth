@@ -11,6 +11,7 @@ const startServer = async () => {
   // Start listening
   app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
+    console.log(`Swagger docs at http://localhost:${PORT}/api-docs`);
   });
 };
 
